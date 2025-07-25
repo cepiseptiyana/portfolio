@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 
 // organisms
 import Navbar from "../organisms/Navbar";
@@ -6,6 +6,8 @@ import HeroSection from "../organisms/HeroSection";
 
 const MainLayout = (props) => {
   const { children } = props;
+  const aboutRef = useRef(null);
+  const heroRef = useRef(null);
 
   const scrollToAbout = () => {
     aboutRef.current?.scrollIntoView({ behavior: "smooth" });

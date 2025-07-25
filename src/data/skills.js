@@ -1,19 +1,37 @@
 import ecommerceImg from "../assets/ecommerce.png";
 import moviesImg from "../assets/movies.png";
+import icon_Html from "../assets/tech/html-5.png";
+import icon_css from "../assets/tech/css-3.png";
+import icon_js from "../assets/tech/js.png";
+import icon_bootstrap from "../assets/tech/bootstrap.png";
+import icon_tailwind from "../assets/tech/tailwind.png";
+import icon_react from "../assets/tech/react.png";
+import icon_rtl from "../assets/tech/rtl.png";
+import icon_jest from "../assets/tech/jest.png";
+import icon_node from "../assets/tech/node.png";
+import icon_npm from "../assets/tech/npm.png";
 
-const skills = [
-  "html",
-  "css",
-  "javascript",
-  "react.js",
-  "vitest",
-  "react testing library",
-  "responsive design",
-  "pinia",
-  "tailwinds",
-  "atomic design",
-  "bootstrap",
-  "figma",
+const technology = [
+  icon_Html,
+  icon_css,
+  icon_js,
+  icon_bootstrap,
+  icon_tailwind,
+  icon_react,
+  icon_rtl,
+  icon_jest,
+  icon_node,
+  icon_npm,
+];
+
+const skill_Teknis = [
+  "🔬 Atomic Design: Menerapkan prinsip desain komponen UI modular dan reusable berdasarkan struktur atom, molekul, organisme, template, dan halaman",
+  "🚀 CI/CD (Continuous Integration & Deployment): Mengotomatisasi proses build, test, dan deployment menggunakan GitHub Actions",
+  "📦 Component-Based Architecture: Membangun aplikasi berbasis komponen mandiri dan scalable, terutama dalam React/Vue.",
+  "⚙️ Version Control (Git): Kolaborasi tim menggunakan branching workflow, PR review, dan git rebase / squash dengan GitHub.",
+  "🎨 Design System Integration: Bekerja dengan Figma untuk mendefinisikan dan menyinkronkan UI guidelines antar tim dev/designer.",
+  "🧪 Automated Testing: Menulis unit & integration tests menggunakan Jest, React Testing Library,",
+  "🖌️ CSS & BEM Menulis stylesheet yang terstruktur, konsisten, dan mudah dipelihara menggunakan metodologi BEM (Block Element Modifier).",
 ];
 
 const education = [
@@ -47,4 +65,4 @@ const project = [
   },
 ];
 
-export { skills, education, profil, project };
+export { technology, education, profil, project, skill_Teknis };
