@@ -20,7 +20,7 @@ const education = [
   "Universitas Terbuka",
   "Program Studi Sistem Informasi - Semester 7",
   "2021 - Sekarang",
-  "Saat ini saya sedang menempuh pendidikan S1 di Universitas Terbuka, jurusan Sistem Informasi. Fokus studi saya mencakup pemrograman, pengelolaan basis data, analisis sistem, serta pengembangan perangkat lunak. Sistem belajar mandiri di UT juga melatih saya untuk bertanggung jawab dan disiplin dalam menyelesaikan tugas-tugas secara mandiri",
+  "Saat ini saya sedang menempuh pendidikan S1 di Universitas Terbuka, jurusan Sistem Informasi. Fokus studi saya mencakup pemrograman, pengelolaan basis data, analisis sistem, serta pengembangan perangkat lunak. Sistem belajar mandiri di UT juga melatih saya untuk bertanggung jawab dan disiplin dalam menyelesaikan tugas-tugas secara mandiri.",
 ];
 
 const profil =
