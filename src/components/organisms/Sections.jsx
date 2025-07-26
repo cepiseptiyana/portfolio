@@ -2,13 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 // data
-import {
-  technology,
-  education,
-  profil,
-  project,
-  skill_Teknis,
-} from "../../data/skills.js";
+import { technology, project, skill_Teknis, tools } from "../../data/skills.js";
 
 // Fragments
 import Heading from "../Fragments/Elements/Heading.jsx";
@@ -39,7 +33,9 @@ const Sections = (props) => {
           </Heading>
         </header>
 
-        <AboutMe profil={profil} />
+        <div className="p-5">
+          <AboutMe />
+        </div>
       </section>
 
       <section className="lg:w-[1000px] w-[100%] m-auto sm:p-10 p-6">
@@ -49,7 +45,9 @@ const Sections = (props) => {
           </Heading>
         </header>
 
-        <Education education={education} />
+        <div className="p-5">
+          <Education />
+        </div>
       </section>
 
       <section className="lg:w-[1000px] w-[100%] m-auto sm:p-10 p-6">
@@ -72,7 +70,11 @@ const Sections = (props) => {
           </Heading>
         </header>
 
-        <Skill technology={technology} skill_Teknis={skill_Teknis} />
+        <Skill
+          technology={technology}
+          skill_Teknis={skill_Teknis}
+          tools={tools}
+        />
       </section>
 
       <section className="lg:w-[1000px] w-[100%] m-auto sm:p-10 p-6">

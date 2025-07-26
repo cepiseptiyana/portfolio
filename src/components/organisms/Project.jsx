@@ -9,7 +9,7 @@ const Project = function (props) {
     return (
       <article
         key={data.id}
-        className="relative md:w-[400px] sm:w-[400px] w-[90%] p-4 md:pb-15 pb-12 border border-white rounded-sm"
+        className="relative md:w-[400px] sm:w-[400px] w-[90%] p-4 md:pb-15 pb-12 border border-black border-t-white border-b-white rounded-sm"
       >
         <img src={data.image} alt="" style={{ width: "100%" }} />
 
