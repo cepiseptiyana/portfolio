@@ -15,6 +15,7 @@ import icon_node from "../assets/tech/node.png";
 import icon_npm from "../assets/tech/npm.png";
 import icon_figma from "../assets/tech/figma.png";
 import icon_next from "../assets/tech/nextjs.svg";
+import icon_redux from "../assets/tech/redux.svg";
 
 const technology = [
   { name: "html", image: icon_Html },
@@ -32,6 +33,7 @@ const tools = [
   { name: "jest", image: icon_jest },
   { name: "npm", image: icon_npm },
   { name: "figma", image: icon_figma },
+  { name: "redux", image: icon_redux },
 ];
 
 const skill_Teknis = [
@@ -42,6 +44,7 @@ const skill_Teknis = [
   "🎨 Design System Integration: Bekerja dengan Figma untuk mendefinisikan dan menyinkronkan UI guidelines antar tim dev/designer.",
   "🧪 Automated Testing: Menulis unit & integration tests menggunakan Jest, React Testing Library,",
   "🖌️ CSS & BEM Menulis stylesheet yang terstruktur, konsisten, dan mudah dipelihara menggunakan metodologi BEM (Block Element Modifier).",
+  "📊 Global State Integration (React-Redux): Menghubungkan state global ke komponen React menggunakan useSelector, useDispatch, dan context separation untuk performa optimal.",
 ];
 
 const profil =
