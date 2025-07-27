@@ -1,13 +1,16 @@
 // Link Router
 import { Router, Route } from "react-router";
 
-// components
-import Home from "./components/Home";
+// components atomic design
+// import Home from "./components/Home";
+
+// features
+import HomePage from "./features/home/HomePage";
 
 function App() {
   return (
     <>
-      <Home />
+      <HomePage />
     </>
   );
 }

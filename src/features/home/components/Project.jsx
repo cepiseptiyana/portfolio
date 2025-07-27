@@ -1,7 +1,3 @@
-// Fragments
-import Heading from "../Fragments/Elements/Heading";
-import Paragraph from "../Fragments/Elements/Paragraph";
-
 const Project = function (props) {
   const { project } = props;
 
@@ -13,22 +9,22 @@ const Project = function (props) {
       >
         <img src={data.image} alt="" style={{ width: "100%" }} />
 
-        <Heading className="font-bold pt-2 font-[Lato,sans-serif] md:text-lg sm:text-sm text-start text-white">
+        <h1 className="font-bold pt-2 font-[Lato,sans-serif] md:text-lg sm:text-sm text-start text-white">
           {data.judul}
-        </Heading>
+        </h1>
 
-        <Paragraph className="pl-2 pr-2 font-thin md:text-md sm:text-sm text-sm text-start text-white">
+        <p className="pl-2 pr-2 font-thin md:text-md sm:text-sm text-sm text-start text-white">
           {data.desc}
-        </Paragraph>
+        </p>
 
         <div className="font-thin flex gap-5 pt-2 md:text-md sm:text-sm text-start text-white">
-          <Paragraph className="bg-green-700 font-thin md:text-md sm:text-sm text-sm text-start text-white p-1 rounded-sm">
+          <p className="bg-green-700 font-thin md:text-md sm:text-sm text-sm text-start text-white p-1 rounded-sm">
             {data.tech[0]}
-          </Paragraph>
+          </p>
 
-          <Paragraph className="bg-blue-500 font-thin md:text-md sm:text-sm text-sm text-start text-white p-1 rounded-sm">
+          <p className="bg-blue-500 font-thin md:text-md sm:text-sm text-sm text-start text-white p-1 rounded-sm">
             {data.tech[1]}
-          </Paragraph>
+          </p>
         </div>
 
         <nav className="absolute bottom-2 bg-red-500 pt-1 pl-5 pr-5 rounded-md hover:bg-red-800 transition duration-500">
@@ -42,9 +38,17 @@ const Project = function (props) {
 
   return (
     <>
-      <div className="flex md:flex-nowrap flex-wrap justify-center gap-5 p-5">
-        {data}
-      </div>
+      <section className="lg:w-[1000px] w-[100%] m-auto sm:p-10 p-6">
+        <header>
+          <h1 className="text-white text-center capitalize font-bold md:text-4xl text-2xl md:px-8 px-8 py-1">
+            Project
+          </h1>
+        </header>
+
+        <div className="flex md:flex-nowrap flex-wrap justify-center gap-5 p-5">
+          {data}
+        </div>
+      </section>
     </>
   );
 };

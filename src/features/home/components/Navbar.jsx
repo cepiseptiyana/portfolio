@@ -1,6 +1,6 @@
 import { useState } from "react";
-
 import feather from "feather-icons";
+
 const iconHome = feather.icons.home.toSvg({
   color: "black",
 });
@@ -15,25 +15,33 @@ const iconMail = feather.icons.mail.toSvg();
 const iconGithub = feather.icons.github.toSvg();
 const iconX_circle = feather.icons["x-circle"].toSvg({ color: "white" });
 
-const Navbar = (props) => {
-  const { scrollToAbout, scrollToHero } = props;
+const Navbar = () => {
+  //   const aboutRef = useRef(null);
+  //   const heroRef = useRef(null);
 
-  console.log(iconCall);
+  //     const scrollToAbout = () => {
+  //       aboutRef.current?.scrollIntoView({ behavior: "smooth" });
+  //     };
+
+  //     const scrollToHero = () => {
+  //       heroRef.current?.scrollIntoView({ behavior: "smooth" });
+  //     };
+
   const [isActive, setIsActive] = useState(false);
 
   return (
     <>
-      <div className="fixed pt-5 right-5 z-10 flex flex-col gap-2">
+      <nav className="fixed pt-5 right-5 z-10 flex flex-col gap-2">
         <div
           className="hover:scale-75 cursor-pointer bg-white rounded-2xl p-2 hover:bg-gray-500 transition-all duration-300"
           dangerouslySetInnerHTML={{ __html: iconHome }}
-          onClick={scrollToHero}
+          //   onClick={scrollToHero}
         ></div>
 
         <div
           className="hover:scale-75 cursor-pointer bg-blue-500 rounded-2xl p-2 hover:bg-blue-300 transition-all duration-300"
           dangerouslySetInnerHTML={{ __html: iconUserCheck }}
-          onClick={scrollToAbout}
+          //   onClick={scrollToAbout}
         ></div>
 
         {/* sosmed */}
@@ -92,7 +100,7 @@ const Navbar = (props) => {
             }}
           ></div>
         </div>
-      </div>
+      </nav>
     </>
   );
 };

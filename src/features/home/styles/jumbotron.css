@@ -1,5 +1,3 @@
-@import url("./text.css");
-
 .hero__section {
   background-color: rgb(0, 0, 0);
 
@@ -29,6 +27,17 @@
       animation: spinBlob 6s linear infinite;
     }
   }
+}
+
+.animated-text {
+  display: inline-block;
+  background: linear-gradient(270deg, #ff0080, #7928ca, #2afadf, #ff0080);
+  background-size: 800% 800%;
+  background-position: 0% 0%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  white-space: nowrap;
 }
 
 @keyframes spinBlob {

@@ -1,4 +1,4 @@
-@import url("./assets/index.css");
+@import url("./features/home/styles/jumbotron.css");
 @import "tailwindcss";
 
 @theme {
