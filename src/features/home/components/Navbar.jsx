@@ -16,17 +16,6 @@ const iconGithub = feather.icons.github.toSvg();
 const iconX_circle = feather.icons["x-circle"].toSvg({ color: "white" });
 
 const Navbar = () => {
-  //   const aboutRef = useRef(null);
-  //   const heroRef = useRef(null);
-
-  //     const scrollToAbout = () => {
-  //       aboutRef.current?.scrollIntoView({ behavior: "smooth" });
-  //     };
-
-  //     const scrollToHero = () => {
-  //       heroRef.current?.scrollIntoView({ behavior: "smooth" });
-  //     };
-
   const [isActive, setIsActive] = useState(false);
 
   return (
@@ -35,13 +24,11 @@ const Navbar = () => {
         <div
           className="hover:scale-75 cursor-pointer bg-white rounded-2xl p-2 hover:bg-gray-500 transition-all duration-300"
           dangerouslySetInnerHTML={{ __html: iconHome }}
-          //   onClick={scrollToHero}
         ></div>
 
         <div
           className="hover:scale-75 cursor-pointer bg-blue-500 rounded-2xl p-2 hover:bg-blue-300 transition-all duration-300"
           dangerouslySetInnerHTML={{ __html: iconUserCheck }}
-          //   onClick={scrollToAbout}
         ></div>
 
         {/* sosmed */}

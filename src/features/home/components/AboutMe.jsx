@@ -10,7 +10,7 @@ const AboutMe = () => {
 
         <div className="p-5">
           <p className="text-white italic text-center">steps</p>
-          <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg sm:text-sm text-xs">
+          <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg text-sm">
             Saya adalah seorang Front-End Web Developer dengan pengalaman lebih
             dari 2 tahun dalam membangun website dan aplikasi web yang
             fungsional serta menarik secara visual. Spesialisasi saya meliputi

@@ -19,7 +19,7 @@ const Skill = (props) => {
   const list_skill_teknis = skill_Teknis.map((paragraph, index) => {
     return (
       <li
-        className="font-[Lato,sans-serif] text-gray-300 md:text-lg sm:text-sm text-xs"
+        className="font-[Lato,sans-serif] text-gray-300 md:text-lg text-sm"
         key={index}
       >
         <p className="p-2">{paragraph}</p>
@@ -96,40 +96,6 @@ const Skill = (props) => {
           </ul>
         </article>
       </section>
-
-      {/* <article className="md:w-[90%] w-[100%] m-auto pt-8 pb-8">
-        <header>
-          <h1 className="text-white capitalize font-sans font-bold lg:text-2xl sm:text-2xl text-md text-center">
-            skill teknis
-          </h1>
-        </header>
-
-        <ul>{list_skill_teknis}</ul>
-      </article>
-
-      <article>
-        <header>
-          <h1 className="text-white capitalize font-sans font-bold lg:text-2xl sm:text-2xl text-md text-center p-5">
-            Tools
-          </h1>
-        </header>
-
-        <ul className="flex justify-center items-center flex-wrap gap-5">
-          {list_tools}
-        </ul>
-      </article>
-
-      <article className="">
-        <header>
-          <h1 className="text-white capitalize font-sans font-bold lg:text-2xl sm:text-2xl text-md text-center p-5">
-            technology stack
-          </h1>
-        </header>
-
-        <ul className="flex justify-center items-center flex-wrap gap-5">
-          {list_technology}
-        </ul>
-      </article> */}
     </>
   );
 };

@@ -1,5 +1,8 @@
 import React, { useEffect, useRef } from "react";
 
+// assets
+import file_cv from "../../../assets/fileCv/cepi.s.cv.pdf";
+
 // gsap
 import { gsap } from "gsap";
 
@@ -63,11 +66,18 @@ const Jumbotron = () => {
           front end web
         </h1>
 
-        <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg sm:text-sm text-xs">
+        <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg text-sm">
           Hallo, saya cepi septiyana Front-End Web Developer Saya membangun
           antarmuka web yang cepat, responsif, dan user-friendly menggunakan
           teknologi modern seperti HTML, CSS, JavaScript, dan React.
         </p>
+
+        <a
+          href={file_cv}
+          className="text-white text-sm capitalize bg-red-500 block p-2 mt-5 w-fit rounded-md hover:bg-blue-500 duration-200"
+        >
+          download cv
+        </a>
       </div>
 
       {/* blob */}

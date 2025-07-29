@@ -11,16 +11,16 @@ const Education = () => {
         </header>
 
         <div className="p-5">
-          <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg sm:text-sm text-xs">
+          <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg text-sm">
             Universitas Terbuka
           </p>
-          <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg sm:text-sm text-xs">
+          <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg text-sm">
             Program Studi Sistem Informasi - Semester 7
           </p>
-          <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg sm:text-sm text-xs">
+          <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg text-sm">
             2021 - Sekarang
           </p>
-          <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg sm:text-sm text-xs">
+          <p className="font-[Lato,sans-serif] text-gray-300 md:text-lg text-sm">
             Saat ini saya sedang menempuh pendidikan S1 di Universitas Terbuka,
             jurusan Sistem Informasi. Fokus studi saya mencakup pemrograman,
             pengelolaan basis data, analisis sistem, serta pengembangan

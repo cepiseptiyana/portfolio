@@ -5,12 +5,14 @@ import { useState } from "react";
 import { technology, tools } from "../data/icons.js";
 import { project } from "../data/product.js";
 import { skill_Teknis } from "../data/skill.teknis.js";
+import { certifications } from "../data/certifications.js";
 
 // components
 import AboutMe from "./AboutMe.jsx";
 import Education from "./Education.jsx";
 import Skill from "./Skill.jsx";
 import Project from "./Project.jsx";
+import Certifications from "./Certifications.jsx";
 
 const Sections = () => {
   const [position, setPosition] = useState({ x: 400, y: 0 });
@@ -35,6 +37,7 @@ const Sections = () => {
         handleMouseMove={handleMouseMove}
       />
       <Project project={project} />
+      <Certifications certifications={certifications} />
     </>
   );
 };
