@@ -27,7 +27,7 @@ const Project = function (props) {
           </p>
         </div>
 
-        <nav className="absolute bottom-2 bg-red-500 pt-1 pl-5 pr-5 rounded-md hover:bg-red-800 transition duration-500">
+        <nav className="absolute bottom-2 bg-red-500 pl-5 pr-5 rounded-md hover:bg-red-800 transition duration-500">
           <a href={data.link} className="capitalize text-white">
             {data.visit}
           </a>

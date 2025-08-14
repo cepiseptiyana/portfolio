@@ -2,6 +2,7 @@
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import Sections from "./components/Sections";
+import { useEffect } from "react";
 
 const HomePage = () => {
   return (
