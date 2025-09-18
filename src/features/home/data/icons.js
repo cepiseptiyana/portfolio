@@ -1,4 +1,4 @@
-import icon_Html from "@assets/images/technology/html-5.png";
+import icon_Html from "@assets/images/technology/html5.png";
 import icon_css from "@assets/images/technology/css-3.png";
 import icon_js from "@assets/images/technology/js.png";
 import icon_bootstrap from "@assets/images/technology/bootstrap.png";
