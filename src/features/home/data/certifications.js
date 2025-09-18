@@ -1,8 +1,8 @@
-import pdf_html from "../../../assets/fileCv/html.pdf";
-import pdf_css from "../../../assets/fileCv/css.pdf";
-import pdf_javascript_1 from "../../../assets/fileCv/javascript.pdf";
-import pdf_javascript_2 from "../../../assets/fileCv/javascriptSoloLearn.pdf";
-import pdf_react from "../../../assets/fileCv/react.pdf";
+import pdf_html from "@assets/fileCv/html.pdf";
+import pdf_css from "@assets/fileCv/css.pdf";
+import pdf_javascript_1 from "@assets/fileCv/javascript.pdf";
+import pdf_javascript_2 from "@assets/fileCv/javascriptSoloLearn.pdf";
+import pdf_react from "@assets/fileCv/react.pdf";
 
 export const certifications = [
   {

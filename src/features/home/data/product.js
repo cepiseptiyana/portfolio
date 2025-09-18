@@ -1,7 +1,7 @@
 // Image Project
-import img_ecomerce from "../../../assets/eccomerce.png";
-import img_movie from "../../../assets/movies.png";
-import img_todo from "../../../assets/todo.png";
+import img_ecomerce from "@assets/eccomerce.png";
+import img_movie from "@assets/movies.png";
+import img_todo from "@assets/todo.png";
 
 const project = [
   {
