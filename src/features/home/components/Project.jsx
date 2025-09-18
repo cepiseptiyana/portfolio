@@ -38,7 +38,10 @@ const Project = function (props) {
 
   return (
     <>
-      <section className="lg:w-[1000px] w-[100%] m-auto sm:p-10 p-6">
+      <section
+        id="project"
+        className="lg:w-[1000px] w-[100%] m-auto sm:p-10 p-6"
+      >
         <header>
           <h1 className="text-white text-center capitalize font-bold md:text-4xl text-2xl md:px-8 px-8 py-1">
             Project
